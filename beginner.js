@@ -3,3 +3,4 @@ function abc(){
 }
 
 abc().then(value => console.log(value));
+console.log('hello');

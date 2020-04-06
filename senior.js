@@ -3,3 +3,4 @@ function Cat(name){
 }
 
 var cat = new Cat('Tom');
+module.exports = Cat;
