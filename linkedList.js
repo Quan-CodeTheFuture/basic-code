@@ -12,15 +12,16 @@ function Spot(i,grid){
     }
 }
 var grid = [9,3,5,6,9,10];
-for(var i = 0; i <= grid.length; i++){
+for(var i = 0; i < grid.length; i++){
     grid[i] = new Spot(i,grid);
 }
 
-for(var i = 0; i <= grid.length; i++){
+for(var i = 0; i < grid.length; i++){
     grid[i].savePrevious();
 }
 
-var i = grid.length;
+var i = grid.length - 1;
+console.log(grid[i].value);
 var temp = grid[i].neightbors[0];
 
 while(temp){
