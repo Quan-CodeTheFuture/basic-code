@@ -1,1 +1,1 @@
-This project is just a draft
+This project is just a draft.
