@@ -8,10 +8,13 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/linkedList.js",
+            "program": "${file}",
             "skipFiles": [
                 "<node_internals>/**"
-            ]
+            ],
+            "console": "integratedTerminal"
+
         }
     ]
+    
 }
